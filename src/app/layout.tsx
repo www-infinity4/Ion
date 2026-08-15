@@ -18,6 +18,7 @@ export default function RootLayout({
       <body className="antialiased bg-[#0a0a0f] text-gray-100 min-h-screen">
         <Navigation />
         <main className="pt-16">{children}</main>
+        <script src="https://www-infinity4.github.io/Mint-For-Infinity/infinity-wallet-menu.js" defer></script>
       </body>
     </html>
   );
